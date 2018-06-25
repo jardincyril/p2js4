@@ -1,6 +1,6 @@
-function fun(){
-//declaration de variable
- var lastname = document.getElementById('lastname').value='';
- var firstname = document.getElementById('firstname').value='';
- var city = document.getElementById('city').value='';
+//declaration de la fonction qui permet de vider les champs du formulaire
+function raz(){
+  document.getElementById('lastname').value = '';
+  document.getElementById('firstname').value = '';
+  document.getElementById('city').value = '';
 }
